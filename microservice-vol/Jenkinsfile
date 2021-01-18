@@ -1,7 +1,7 @@
 node {
 
 stage('SCM'){
- git 'https://github.com/leofou/test_projet_jenkins_sonnarqube/blob/master/microservice-vol/'
+ git 'https://github.com/leofou/test_projet_jenkins_sonnarqube/blob/master/microservice-vol'
 }
 
 stage('Compile'){
